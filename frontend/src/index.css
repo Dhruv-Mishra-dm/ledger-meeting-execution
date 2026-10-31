@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-font-smoothing: antialiased; }
+  body { @apply bg-paper text-ink font-sans text-[14px] leading-relaxed; }
+  h1, h2, h3 { @apply text-ink; }
+  :focus-visible { @apply outline-none ring-2 ring-accent/60 ring-offset-1 ring-offset-paper; }
+  ::selection { @apply bg-accent/15; }
+}
+
+@layer components {
+  .card { @apply bg-surface border border-line rounded-lg shadow-card; }
+  .label { @apply text-[11px] font-mono uppercase tracking-[0.08em] text-ink-muted; }
+  .input { @apply w-full rounded-md border border-line-strong bg-surface px-3 py-2 text-[14px] text-ink placeholder:text-ink-faint focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition; }
+  .btn { @apply inline-flex items-center justify-center gap-1.5 rounded-md px-3 py-1.5 text-[13px] font-medium transition disabled:cursor-not-allowed disabled:opacity-50 whitespace-nowrap; }
+  .btn-primary { @apply btn bg-accent text-white hover:bg-accent-hover; }
+  .btn-secondary { @apply btn border border-line-strong bg-surface text-ink hover:bg-paper; }
+  .btn-ghost { @apply btn text-ink-soft hover:bg-ink/5; }
+  .btn-danger { @apply btn border border-danger/30 bg-surface text-danger hover:bg-danger-tint; }
+  .link { @apply text-accent hover:underline underline-offset-2; }
+  .quote { @apply border-l-2 border-line-strong pl-3 text-ink-soft font-serif text-[15px] leading-snug; }
+}
+
+.stamp {
+  transform: rotate(-3deg);
+  letter-spacing: 0.14em;
+}

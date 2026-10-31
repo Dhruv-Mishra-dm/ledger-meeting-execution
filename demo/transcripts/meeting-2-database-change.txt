@@ -1,0 +1,14 @@
+Meeting: Atlas architecture follow-up
+Date: November 2, 2026
+Project: Atlas Customer Portal
+Participants: Anshul, Rahul, Priya, Karan
+
+[00:00:04] Anshul: Quick follow-up on the database. Rahul, what did the load tests show?
+[00:00:15] Rahul: Um, so the reporting queries were really slow on MongoDB. Billing needs proper joins and transactions.
+[00:00:41] Karan: The finance team also wants strict schemas for the invoices.
+[00:01:02] Anshul: Okay. After evaluating the alternatives, we have decided to migrate the application database from MongoDB to PostgreSQL.
+[00:01:20] Anshul: Rahul is now responsible for the migration to PostgreSQL, by November 9.
+[00:01:35] Rahul: Understood.
+[00:01:45] Priya: Do I need to change the documentation outline?
+[00:01:58] Anshul: Not yet. The production launch is still scheduled for November 8, so keep the current plan.
+[00:02:15] Karan: I'll add PostgreSQL to the test environment by November 4.

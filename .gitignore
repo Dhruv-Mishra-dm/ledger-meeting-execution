@@ -1,0 +1,27 @@
+# secrets
+.env
+backend/.env
+*.env.local
+
+# python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# database (local data, never committed)
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+
+# node
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# os / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

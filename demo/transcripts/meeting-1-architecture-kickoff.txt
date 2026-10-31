@@ -1,0 +1,16 @@
+Meeting: Atlas architecture kickoff
+Date: November 1, 2026
+Project: Atlas Customer Portal
+Participants: Anshul, Rahul, Priya, Karan
+
+[00:00:05] Anshul: Okay, let's get started. The main thing today is the database for the customer portal.
+[00:00:21] Rahul: I compared a few options. Um, for the order history data I think a document store fits well.
+[00:00:40] Karan: Should we look at PostgreSQL too? I used it on the last project.
+[00:00:58] Anshul: Fair point, but time is tight. After the review, the team has agreed to use MongoDB for the application database.
+[00:01:20] Rahul: Sounds good. That works for the order history model.
+[00:01:42] Anshul: Rahul will complete the database integration by November 5.
+[00:01:55] Rahul: Yes, November 5 is fine.
+[00:02:10] Anshul: Priya will own the technical documentation, due November 7.
+[00:02:24] Priya: Got it. The docs will live in the team wiki.
+[00:02:40] Karan: And the production launch is scheduled for November 8.
+[00:02:55] Anshul: Great, thanks everyone.

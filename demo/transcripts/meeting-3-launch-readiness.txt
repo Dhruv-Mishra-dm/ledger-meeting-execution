@@ -1,0 +1,12 @@
+Meeting: Atlas launch readiness
+Date: November 8, 2026
+Project: Atlas Customer Portal
+Participants: Anshul, Rahul, Priya, Karan
+
+[00:00:06] Anshul: Let's go through launch readiness.
+[00:00:18] Rahul: The PostgreSQL migration is finished on staging. We're staying on PostgreSQL, no surprises there.
+[00:00:40] Karan: QA found two blocking bugs in checkout, and testing is behind schedule.
+[00:01:02] Anshul: Okay, so given the testing delays, the production launch is postponed from November 8 to November 22.
+[00:01:25] Anshul: Priya must finish the documentation by November 12.
+[00:01:40] Priya: Works for me.
+[00:01:52] Anshul: Karan will retest checkout once the payment fix is merged, by November 15.
